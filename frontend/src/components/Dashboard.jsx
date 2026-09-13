@@ -1,6 +1,7 @@
 import { useState } from "react";
 import CityMap from "./CityMap";
 import ForecastChart from "./ForecastChart";
+import AgentPanel from "./AgentPanel";
 import { mockReports, mockForecast } from "../mocks";
 
 const order = { high: 0, medium: 1, low: 2 };
@@ -40,6 +41,7 @@ export default function Dashboard() {
               <button onClick={() => resolve(r.id)} style={s.resolve}>Resolve</button>
             </div>
           ))}
+          <AgentPanel />
         </div>
       </div>
     </div>
