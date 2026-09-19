@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model/training outputs
+runs/
+weights/
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
